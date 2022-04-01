@@ -1,0 +1,23 @@
+{
+  "name": "com.tinyjams.tjlib",
+  "version": "0.0.1",
+  "displayName": "Tiny Jams Library",
+  "description": "This is an package for reusable scripts for our gamejams",
+  "unity": "2021.2",
+  "unityRelease": "17f1",
+  "dependencies": {
+    "com.unity.ext.nunit": "1.0.0",
+    "com.unity.inputsystem": "1.3.0"
+  },
+  "keywords": [
+    "gamejam",
+    "library",
+    "personal"
+  ],
+  "author": {
+    "name": "Tiny Libs",
+    "email": "jan@mikusch.at",
+    "url": "https://github.com/Tiny-Jams"
+  },
+  "type": "library"
+}

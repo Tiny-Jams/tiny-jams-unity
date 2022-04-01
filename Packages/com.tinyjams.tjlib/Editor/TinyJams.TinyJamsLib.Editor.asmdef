@@ -1,0 +1,16 @@
+{
+    "name": "TinyJams.TinyJamsLib.Editor",
+    "references": [
+        "TinyJams.TinyJamsLib"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": []
+}
