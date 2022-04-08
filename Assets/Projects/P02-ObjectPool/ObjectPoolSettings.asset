@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74fda04b158e409d9b974e83a2034ae6, type: 3}
+  m_Name: ObjectPoolSettings
+  m_EditorClassIdentifier: 
+  templates:
+  - <Key>k__BackingField: Circles
+    <Prefab>k__BackingField: {fileID: 7214842543180229680, guid: e7c156046e907b94f9eb930b6f01df67, type: 3}
+    <MinPoolSize>k__BackingField: 20

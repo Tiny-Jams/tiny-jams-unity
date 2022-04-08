@@ -153,4 +153,6 @@ sysinfo.txt
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 
+.vsconfig
+
 # End of https://www.toptal.com/developers/gitignore/api/rider,unity

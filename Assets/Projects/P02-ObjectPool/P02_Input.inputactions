@@ -1,0 +1,54 @@
+{
+    "name": "P02_Input",
+    "maps": [
+        {
+            "name": "General",
+            "id": "60d3597a-829c-41cb-81aa-9b46b5b5673b",
+            "actions": [
+                {
+                    "name": "Release",
+                    "type": "Button",
+                    "id": "1b7e18dc-2ed7-4f48-90ee-24f25995e2f4",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Activate",
+                    "type": "Button",
+                    "id": "b7e04eea-fa18-4e57-b4a0-2a848b83bc19",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "eb95edd1-861f-43fb-957d-86324f624117",
+                    "path": "<Keyboard>/r",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Release",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "096d44f0-6a22-4dca-95aa-1c620bf4812b",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Activate",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
