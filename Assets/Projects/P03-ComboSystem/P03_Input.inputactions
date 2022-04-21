@@ -1,0 +1,54 @@
+{
+    "name": "P03_Input",
+    "maps": [
+        {
+            "name": "General",
+            "id": "a81b47df-c360-47b2-bf29-c93dff249e78",
+            "actions": [
+                {
+                    "name": "A",
+                    "type": "Button",
+                    "id": "c5499266-b0e2-48a0-abb8-5b5299f930ab",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "B",
+                    "type": "Button",
+                    "id": "a9e5b4fa-c48b-488c-9bf5-dd3be33d7ed1",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "315bf310-1019-451f-8c54-21eb79a488eb",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "A",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "539d5f78-8447-43e2-a5da-b01db5cfba10",
+                    "path": "<Keyboard>/b",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "B",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

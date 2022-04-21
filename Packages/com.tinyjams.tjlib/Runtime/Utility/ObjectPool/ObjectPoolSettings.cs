@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace com.tinyjams.tjlib.Runtime.Utility.ObjectPool
 {
-    [CreateAssetMenu(fileName = "ObjectPoolSettings", menuName = "ObjectPool/ObjectPoolSettings", order = 0)]
+    [CreateAssetMenu(fileName = "ObjectPoolSettings", menuName = "TinyJams/ObjectPool/ObjectPoolSettings", order = 0)]
     public class ObjectPoolSettings : ScriptableObject
     {
         [SerializeField] public List<ItemTemplate> templates = new();
