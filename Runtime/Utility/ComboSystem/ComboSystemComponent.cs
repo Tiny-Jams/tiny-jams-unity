@@ -11,9 +11,9 @@ namespace com.tinyjams.tjlib.Runtime.Utility.ComboSystem
     public class ComboSystemComponent : MonoBehaviour
     {
         [SerializeField] private ComboTemplate combos;
-        [SerializeField] public ComboInputUEvent OnInputReceived { get; private set};
-        [SerializeField] public ComboPerformedUEvent OnComboComplete { get; private set};
-        [SerializeField] public ComboAbortedUEvent OnComboAborted { get; private set};
+        [SerializeField] public ComboInputUEvent OnInputReceived { get; private set; }
+        [SerializeField] public ComboPerformedUEvent OnComboComplete { get; private set; }
+        [SerializeField] public ComboAbortedUEvent OnComboAborted { get; private set; }
 
         private string currentInput;
         
