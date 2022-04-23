@@ -11,9 +11,9 @@ namespace com.tinyjams.tjlib.Runtime.Utility.ComboSystem
     public class ComboSystemComponent : MonoBehaviour
     {
         [SerializeField] private ComboTemplate combos;
-        [SerializeField] private ComboInputUEvent onInputReceived;
-        [SerializeField] private ComboPerformedUEvent onComboComplete;
-        [SerializeField] private ComboAbortedUEvent onComboAborted;
+        [SerializeField] private ComboInputUEvent OnInputReceived { get; private set};
+        [SerializeField] private ComboPerformedUEvent OnComboComplete { get; private set};
+        [SerializeField] private ComboAbortedUEvent OnComboAborted { get; private set};
 
         private string currentInput;
         
@@ -23,24 +23,24 @@ namespace com.tinyjams.tjlib.Runtime.Utility.ComboSystem
             this.currentInput += s;
             if (this.combos.FindCombo(this.currentInput, out var action))
             {
-                this.onInputReceived.Invoke(inputBefore, s, action);
+                this.OnInputReceived.Invoke(inputBefore, s, action);
                 
                 if(action.IsAction())
                 {
-                    this.onComboComplete.Invoke(this.currentInput, (ComboAction) action);
+                    this.OnComboComplete.Invoke(this.currentInput, (ComboAction) action);
                     this.currentInput = string.Empty;
                 }
             }
             else
             {
-                this.onComboAborted.Invoke(inputBefore, s);
+                this.OnComboAborted.Invoke(inputBefore, s);
                 this.currentInput = string.Empty;
             }
         }
 
         public void Abort()
         {
-            this.onComboAborted.Invoke(this.currentInput, string.Empty);
+            this.OnComboAborted.Invoke(this.currentInput, string.Empty);
             this.currentInput = string.Empty;
         }
 
