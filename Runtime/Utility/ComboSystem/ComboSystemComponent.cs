@@ -43,5 +43,15 @@ namespace com.tinyjams.tjlib.Runtime.Utility.ComboSystem
             this.onComboAborted.Invoke(this.currentInput, string.Empty);
             this.currentInput = string.Empty;
         }
+
+        public void SetComboTemplate(ComboTemplate newCombos, bool reset = true)
+        {
+            this.combos = newCombos;
+
+            if (reset)
+            {
+                this.currentInput = string.Empty;
+            }
+        }
     }
 }
